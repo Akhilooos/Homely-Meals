@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/widgets/rating_widget.dart';
+import 'package:homelyMeals/widgets/rating_widget.dart';
 
 import '../model/review_model.dart';
 import '../utils/constants.dart';

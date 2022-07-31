@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:rentalapp/stream_builder.dart';
+import 'package:homelyMeals/stream_builder.dart';
 
 class Mysplashscreen extends StatefulWidget {
   const Mysplashscreen({Key? key}) : super(key: key);

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:rentalapp/Screens/add_food.dart';
-import 'package:rentalapp/utils/constants.dart';
+import 'package:homelyMeals/Screens/add_food.dart';
+import 'package:homelyMeals/utils/constants.dart';
 
 class MenuCatagoryListWidget extends StatelessWidget {
   final int index;

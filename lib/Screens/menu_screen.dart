@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/utils/constants.dart';
-import 'package:rentalapp/widgets/menucatogory_widget.dart';
+import 'package:homelyMeals/utils/constants.dart';
+import 'package:homelyMeals/widgets/menucatogory_widget.dart';
 
 import '../widgets/appbar_widget.dart';
 

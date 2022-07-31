@@ -8,7 +8,7 @@ class Utils {
   showSnackBar({required BuildContext context, required String content}) {
     ScaffoldMessenger.of(context).showSnackBar(
       SnackBar(
-        backgroundColor: const Color.fromARGB(255, 221, 134, 127),
+        backgroundColor: Color.fromARGB(255, 11, 11, 11),
         shape: const RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
             topLeft: Radius.circular(10),

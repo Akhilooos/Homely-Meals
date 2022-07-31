@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/widgets/appbar_widget.dart';
+import 'package:homelyMeals/widgets/appbar_widget.dart';
 
 class LocationSelectionScreen extends StatefulWidget {
   const LocationSelectionScreen({Key? key}) : super(key: key);

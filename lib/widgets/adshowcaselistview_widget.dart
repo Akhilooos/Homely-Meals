@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/utils/colour_theme.dart';
+import 'package:homelyMeals/utils/colour_theme.dart';
 
 class AdsListViewShowcaseWidget extends StatelessWidget {
   final String title;

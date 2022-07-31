@@ -3,10 +3,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:rentalapp/Screens/splash_screen.dart';
-import 'package:rentalapp/provider/userdetail_provider.dart';
+import 'package:homelyMeals/Screens/splash_screen.dart';
+import 'package:homelyMeals/provider/userdetail_provider.dart';
 
-import 'package:rentalapp/utils/colour_theme.dart';
+import 'package:homelyMeals/utils/colour_theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,11 +23,11 @@ void main() async {
   } else {
     await Firebase.initializeApp();
   }
-  runApp(const RentalApp());
+  runApp(const homelyMeals());
 }
 
-class RentalApp extends StatelessWidget {
-  const RentalApp({Key? key}) : super(key: key);
+class homelyMeals extends StatelessWidget {
+  const homelyMeals({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

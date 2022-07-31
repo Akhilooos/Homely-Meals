@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:rentalapp/utils/constants.dart';
+import 'package:homelyMeals/utils/constants.dart';
 
 import '../provider/userdetail_provider.dart';
 import '../resources/cloudfirestore_methods.dart';

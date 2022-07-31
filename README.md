@@ -1,4 +1,4 @@
-# rentalapp
+# homelyMeals
 
 A new Flutter project.
 

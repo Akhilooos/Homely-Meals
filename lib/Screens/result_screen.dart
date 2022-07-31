@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/utils/colour_theme.dart';
-import 'package:rentalapp/widgets/results_widget.dart';
+import 'package:homelyMeals/utils/colour_theme.dart';
+import 'package:homelyMeals/widgets/results_widget.dart';
 
 import '../model/product_model.dart';
 import '../widgets/appbar_widget.dart';

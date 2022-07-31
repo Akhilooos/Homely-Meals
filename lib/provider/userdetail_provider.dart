@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/model/userdetails_model.dart';
+import 'package:homelyMeals/model/userdetails_model.dart';
 import '../resources/cloudfirestore_methods.dart';
 
 class UserDetailsProvider with ChangeNotifier {

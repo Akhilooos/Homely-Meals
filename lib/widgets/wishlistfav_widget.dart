@@ -2,8 +2,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
-import 'package:rentalapp/model/product_model.dart';
-import 'package:rentalapp/widgets/wishlist_widget.dart';
+import 'package:homelyMeals/model/product_model.dart';
+import 'package:homelyMeals/widgets/wishlist_widget.dart';
 
 class YourWishlistWidget extends StatefulWidget {
   const YourWishlistWidget({Key? key}) : super(key: key);

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/model/product_model.dart';
+import 'package:homelyMeals/model/product_model.dart';
 
-import 'package:rentalapp/widgets/custombutton_widget.dart';
-import 'package:rentalapp/widgets/productinformation_wiget.dart';
+import 'package:homelyMeals/widgets/custombutton_widget.dart';
+import 'package:homelyMeals/widgets/productinformation_wiget.dart';
 import '../Screens/product_screen.dart';
 
 class YourRentingWidget extends StatelessWidget {

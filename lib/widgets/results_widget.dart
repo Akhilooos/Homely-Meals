@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/model/product_model.dart';
-import 'package:rentalapp/widgets/price_widget.dart';
+import 'package:homelyMeals/model/product_model.dart';
+import 'package:homelyMeals/widgets/price_widget.dart';
 
 import '../Screens/product_screen.dart';
 
@@ -30,7 +30,7 @@ class ResultWidget extends StatelessWidget {
             SizedBox(
               //height: (screenSize.height / 4),
               width: screenSize.width / 3,
-    
+
               child: Image.asset(productModel.imgurl),
             ),
             Padding(
@@ -43,10 +43,12 @@ class ResultWidget extends StatelessWidget {
               ),
             ),
             SizedBox(
-                height: 20,
-                child: FittedBox(
-                    child: PriceWidget(
-                        color: Colors.black, price: productModel.price),),),
+              height: 20,
+              child: FittedBox(
+                child:
+                    PriceWidget(color: Colors.black, price: productModel.price),
+              ),
+            ),
           ],
         ),
       ),

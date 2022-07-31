@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:rentalapp/Screens/login_screen.dart';
+import 'package:homelyMeals/Screens/login_screen.dart';
 
 import '../resources/authentication_methods.dart';
 import '../utils/utils.dart';

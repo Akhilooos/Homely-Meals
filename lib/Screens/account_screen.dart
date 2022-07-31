@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:rentalapp/widgets/user_accountdetails_widget.dart';
-import 'package:rentalapp/widgets/whishlistandrenting_widget.dart';
+import 'package:homelyMeals/widgets/user_accountdetails_widget.dart';
+import 'package:homelyMeals/widgets/whishlistandrenting_widget.dart';
 
 import '../widgets/appbar_widget.dart';
 import 'notification_screen.dart';

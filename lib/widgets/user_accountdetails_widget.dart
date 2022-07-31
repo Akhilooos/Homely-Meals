@@ -1,10 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:rentalapp/model/userdetails_model.dart';
-import 'package:rentalapp/provider/userdetail_provider.dart';
+import 'package:homelyMeals/model/userdetails_model.dart';
+import 'package:homelyMeals/provider/userdetail_provider.dart';
 
-import 'package:rentalapp/utils/constants.dart';
+import 'package:homelyMeals/utils/constants.dart';
 
 import '../utils/colour_theme.dart';
 

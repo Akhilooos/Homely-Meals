@@ -4,8 +4,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:rentalapp/model/product_model.dart';
-import 'package:rentalapp/model/userdetails_model.dart';
+import 'package:homelyMeals/model/product_model.dart';
+import 'package:homelyMeals/model/userdetails_model.dart';
 
 import '../model/review_model.dart';
 import '../utils/utils.dart';

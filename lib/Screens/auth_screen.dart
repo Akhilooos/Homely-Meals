@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/Screens/login_screen.dart';
-import 'package:rentalapp/Screens/registerscreen.dart';
+import 'package:homelyMeals/Screens/login_screen.dart';
+import 'package:homelyMeals/Screens/registerscreen.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AuthScreen extends StatefulWidget {

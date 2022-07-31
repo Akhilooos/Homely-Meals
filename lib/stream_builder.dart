@@ -1,6 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:rentalapp/Screens/auth_screen.dart';
+import 'package:homelyMeals/Screens/auth_screen.dart';
 
 import 'Layouts/screen_layouts.dart';
 

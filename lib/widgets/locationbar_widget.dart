@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:rentalapp/Screens/locationselection_screen.dart';
+import 'package:homelyMeals/Screens/locationselection_screen.dart';
 
 import '../model/userdetails_model.dart';
 import '../provider/userdetail_provider.dart';

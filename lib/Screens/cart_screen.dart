@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:rentalapp/widgets/wishlistfav_widget.dart';
+import 'package:homelyMeals/widgets/wishlistfav_widget.dart';
 
 import '../widgets/appbar_widget.dart';
 

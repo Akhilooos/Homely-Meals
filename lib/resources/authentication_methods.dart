@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 
-import 'package:rentalapp/model/userdetails_model.dart';
-import 'package:rentalapp/resources/cloudfirestore_methods.dart';
+import 'package:homelyMeals/model/userdetails_model.dart';
+import 'package:homelyMeals/resources/cloudfirestore_methods.dart';
 
 class AuthenticationMethods {
   FirebaseAuth firebaseAuth = FirebaseAuth.instance;
@@ -23,7 +23,8 @@ class AuthenticationMethods {
       try {
         await firebaseAuth.createUserWithEmailAndPassword(
             email: email, password: password);
-        UserDetailsModel user = UserDetailsModel(name: name, location: location);
+        UserDetailsModel user =
+            UserDetailsModel(name: name, location: location);
         await cloudFirestoreClass.uploadNameAndAddressToDatabase(user: user);
         output = 'success';
       } on FirebaseAuthException catch (e) {

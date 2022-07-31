@@ -1,16 +1,16 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:rentalapp/Screens/checkout_screen.dart';
-import 'package:rentalapp/model/product_model.dart';
-import 'package:rentalapp/resources/cloudfirestore_methods.dart';
+import 'package:homelyMeals/Screens/checkout_screen.dart';
+import 'package:homelyMeals/model/product_model.dart';
+import 'package:homelyMeals/resources/cloudfirestore_methods.dart';
 
-import 'package:rentalapp/utils/colour_theme.dart';
-import 'package:rentalapp/utils/utils.dart';
-import 'package:rentalapp/widgets/appbar_widget.dart';
-import 'package:rentalapp/widgets/custombutton_widget.dart';
-import 'package:rentalapp/widgets/price_widget.dart';
-import 'package:rentalapp/widgets/rating_widget.dart';
-import 'package:rentalapp/widgets/simplebutton.dart';
+import 'package:homelyMeals/utils/colour_theme.dart';
+import 'package:homelyMeals/utils/utils.dart';
+import 'package:homelyMeals/widgets/appbar_widget.dart';
+import 'package:homelyMeals/widgets/custombutton_widget.dart';
+import 'package:homelyMeals/widgets/price_widget.dart';
+import 'package:homelyMeals/widgets/rating_widget.dart';
+import 'package:homelyMeals/widgets/simplebutton.dart';
 
 import '../model/review_model.dart';
 import '../widgets/review_vidget.dart';

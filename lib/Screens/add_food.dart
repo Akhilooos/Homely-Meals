@@ -4,10 +4,10 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'package:rentalapp/resources/cloudfirestore_methods.dart';
-import 'package:rentalapp/widgets/custombutton_widget.dart';
-import 'package:rentalapp/widgets/loading_widget.dart';
-import 'package:rentalapp/widgets/textfield_widget.dart';
+import 'package:homelyMeals/resources/cloudfirestore_methods.dart';
+import 'package:homelyMeals/widgets/custombutton_widget.dart';
+import 'package:homelyMeals/widgets/loading_widget.dart';
+import 'package:homelyMeals/widgets/textfield_widget.dart';
 
 import '../model/userdetails_model.dart';
 import '../provider/userdetail_provider.dart';

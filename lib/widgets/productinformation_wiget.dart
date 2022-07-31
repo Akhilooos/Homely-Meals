@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/utils/colour_theme.dart';
-
+import 'package:homelyMeals/utils/colour_theme.dart';
 
 import 'price_widget.dart';
 

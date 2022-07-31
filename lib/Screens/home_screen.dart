@@ -3,12 +3,12 @@ import 'dart:developer';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'package:rentalapp/widgets/adshowcaselistview_widget.dart';
+import 'package:homelyMeals/widgets/adshowcaselistview_widget.dart';
 
-import 'package:rentalapp/widgets/appbar_widget.dart';
+import 'package:homelyMeals/widgets/appbar_widget.dart';
 
-import 'package:rentalapp/widgets/loading_widget.dart';
-import 'package:rentalapp/widgets/locationbar_widget.dart';
+import 'package:homelyMeals/widgets/loading_widget.dart';
+import 'package:homelyMeals/widgets/locationbar_widget.dart';
 
 import '../resources/cloudfirestore_methods.dart';
 
@@ -60,12 +60,11 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
         appBar: AppBar(
           flexibleSpace: AppBarWidget(),
-          title: Text('Homely Meals',
-          style: GoogleFonts.slabo13px(
-            fontSize: 20,
-            fontStyle: FontStyle.normal,
-            color: Colors.white
-          ),),
+          title: Text(
+            'Homely Meals',
+            style: GoogleFonts.slabo13px(
+                fontSize: 20, fontStyle: FontStyle.normal, color: Colors.white),
+          ),
         ),
         body: catagoryApartment != null &&
                 catagoryHouse != null &&

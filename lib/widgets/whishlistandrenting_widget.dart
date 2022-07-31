@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/Screens/cart_screen.dart';
+import 'package:homelyMeals/Screens/cart_screen.dart';
 
-import 'package:rentalapp/utils/constants.dart';
+import 'package:homelyMeals/utils/constants.dart';
 
 import '../utils/colour_theme.dart';
 

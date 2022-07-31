@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/Screens/account_screen.dart';
-import 'package:rentalapp/Screens/home_screen.dart';
-import 'package:rentalapp/Screens/menu_screen.dart';
+import 'package:homelyMeals/Screens/account_screen.dart';
+import 'package:homelyMeals/Screens/home_screen.dart';
+import 'package:homelyMeals/Screens/menu_screen.dart';
 
 const double kAppBarHeight = 80;
 

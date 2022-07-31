@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/Screens/result_screen.dart';
-import 'package:rentalapp/utils/constants.dart';
+import 'package:homelyMeals/Screens/result_screen.dart';
+import 'package:homelyMeals/utils/constants.dart';
 
 class HorizontalListViewBar extends StatelessWidget {
   const HorizontalListViewBar({Key? key}) : super(key: key);

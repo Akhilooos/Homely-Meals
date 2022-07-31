@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rentalapp/Screens/product_screen.dart';
-import 'package:rentalapp/model/product_model.dart';
+import 'package:homelyMeals/Screens/product_screen.dart';
+import 'package:homelyMeals/model/product_model.dart';
 
 class SampleAdsImage extends StatelessWidget {
   final ProductModel productModel;
